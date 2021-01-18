@@ -14,7 +14,7 @@ const { Header, Sider, Content, Footer} = Layout;
 const { SubMenu } = Menu;
 
 const App: FC = () => (
-  <div className="App">
+  <div>
       <Layout className="layout" style={{ minHeight: '100vh'}}>
         <Header>
           <div className="logo" />
